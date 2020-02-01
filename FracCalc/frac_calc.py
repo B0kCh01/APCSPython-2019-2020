@@ -13,5 +13,10 @@ def produce_answer(input):
         out = []
         group = 0
         while group < len(inputs / 2):
+            fraction1Int = out
+
+            if group == 0:
+                fraction1 = parseFraction(inputs[0])
+                if not isInt(fraction)
             group++
             toMixed(reduceFraction(out))
